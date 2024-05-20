@@ -38,26 +38,16 @@ export default {
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
 
-<style> 
-.content{
-  padding: 20px
-  width:100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  
-  align-items: center;
-}
-.logo {
-  width: 300px;
-  padding : 10px
-}
-  
-</style>
 
-<div class="content"> 
+  
 
-<img class="logo" src="https://lh3.googleusercontent.com/d/1if8CdBePaomlqlyxCiNsJTakkU0Vlp3v"/>
+
+
+<p align="center">
+  <img  style="width:300px" class="logo" src="https://lh3.googleusercontent.com/d/1if8CdBePaomlqlyxCiNsJTakkU0Vlp3v"/> 
+</p>
+
+
 
 
 
@@ -72,4 +62,4 @@ $ npm create vite@latest
 ```
 
 
-</div>
+
