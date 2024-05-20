@@ -1,3 +1,46 @@
+
+
+
+
+  
+
+
+
+<p align="center">
+  <img  style="width:300px" class="logo" src="https://lh3.googleusercontent.com/d/1if8CdBePaomlqlyxCiNsJTakkU0Vlp3v"/> 
+</p>
+
+
+
+
+
+## PROJECT DESCRIPTION
+<p>The Payroll System Frontend is an intuitive and user-friendly interface designed to streamline and simplify payroll management for businesses of all sizes. This robust system ensures accuracy, efficiency, and transparency in handling employee compensation, tax calculations, and compliance with labor </p>
+
+## DOCUMENTATION
+
+- [Documentation](https://docs.google.com/document/d/1XgHxy9Es1DioIiz4VarYvCyFFTxlok6uPjCutHjlKNk/edit)
+
+## PROTOTYPE
+
+- [Prototype](https://figma.com/design/pX61jyDBfJpgGjtqpIGuvR/Payroll-Prototype?node-id=39-1797&t=faLWhV0t3csUkzg3-0)
+
+## INSTALLATION
+
+```
+$ npm create vite@latest
+```
+Then follow the prompts!
+
+You can also directly specify the project name and the template you want to use via additional command line options. For example, to scaffold a Vite + Vue project, run:
+
+```
+$ cd my-project
+$ npm install
+$ npm run dev
+```
+
+
 # 👨‍💻Extra
 
 - [Atomic Design Guide 2](https://www.toptal.com/designers/ui/atomic-design-sketch)
@@ -37,29 +80,28 @@ export default {
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
+## KEY FEATURES
 
-
-  
-
-
-
-<p align="center">
-  <img  style="width:300px" class="logo" src="https://lh3.googleusercontent.com/d/1if8CdBePaomlqlyxCiNsJTakkU0Vlp3v"/> 
-</p>
+<h3>ORGANIZATION MANAGEMENT</h3>
 
 
 
-
-
-## PROJECT DESCRIPTION
-<p>The Payroll System Frontend is an intuitive and user-friendly interface designed to streamline and simplify payroll management for businesses of all sizes. This robust system ensures accuracy, efficiency, and transparency in handling employee compensation, tax calculations, and compliance with labor </p>
-
-
-## INSTALLATION
-
-```
-$ npm create vite@latest
-```
-
-
-
++ Organization
+  +  Update Organization
+  +  Join Organization
+  +  Create Organization
++ Branch
+  +  Update Branch 
+  +  Create Branch
++ Department
+  +  Update Department 
+  +  Create Department
++ Pending Request
+  + Accepting Members
+  + Declining Members
++ Role
+  + Set Role
+  + Assign Role
++ Members
+  + Displaying Member
+  + Set Branch && Department 
