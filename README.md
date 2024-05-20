@@ -36,3 +36,40 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+<style> 
+.content{
+  padding: 20px
+  width:100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+}
+.logo {
+  width: 300px;
+  padding : 10px
+}
+  
+</style>
+
+<div class="content"> 
+
+<img class="logo" src="https://lh3.googleusercontent.com/d/1if8CdBePaomlqlyxCiNsJTakkU0Vlp3v"/>
+
+
+
+## PROJECT DESCRIPTION
+<p>The Payroll System Frontend is an intuitive and user-friendly interface designed to streamline and simplify payroll management for businesses of all sizes. This robust system ensures accuracy, efficiency, and transparency in handling employee compensation, tax calculations, and compliance with labor </p>
+
+
+## INSTALLATION
+
+```
+$ npm create vite@latest
+```
+
+
+</div>
