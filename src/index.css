@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@layer base {
+    th {
+      @apply text-left  py-3 border-b ;
+    }
+    td{
+        @apply text-left  py-3 border-b;
+    }
+    tr{
+        @apply even:bg-gray-100  odd:bg-white 
+    }
+    input[type=text]{
+      @apply px-4 py-2 border rounded text-lg
+    }
+    input[type=radio]{
+      @apply  border rounded h-[30px]
+    }
+   
+  
+    select{
+      @apply  border rounded h-[40px] w-[230px]  px-4 py-2 
+    }
+    
+    
+  }
+
+  @layer components {
+    .my-custom-style {
+      @apply  text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br   dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center 
+    }
+  }
